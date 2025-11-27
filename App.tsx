@@ -91,11 +91,15 @@ const App: React.FC = () => {
     return (
         <div className="min-h-screen bg-gray-900 text-gray-300 flex flex-col items-center justify-center p-4 selection:bg-cyan-500 selection:text-white">
             <div className="w-full max-w-5xl mx-auto">
-                <header className="text-center mb-8">
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-white">
-                        <span className="text-cyan-400">Conselho do Meu</span> Eu Futuro
-                    </h1>
-                    <p className="text-gray-400 mt-2 text-lg">Avaliação Racional de Decisões</p>
+                <header className="flex items-center justify-center gap-6 mb-8 bg-white rounded-xl p-6 shadow-lg">
+                    <img src="/centauro.jpg" alt="Centauro" className="w-20 h-20 md:w-24 md:h-24 object-contain" />
+                    <div className="text-center">
+                        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900">
+                            <span className="text-cyan-600">Avaliação Racional</span> de Decisões
+                        </h1>
+                        <p className="text-gray-600 mt-2 text-lg">Conselho do Meu Eu Futuro</p>
+                    </div>
+                    <img src="/mdh.gif" alt="MDH" className="w-20 h-20 md:w-24 md:h-24 object-contain" />
                 </header>
                 <main className="bg-gray-800 rounded-xl shadow-2xl shadow-black/30 p-6 md:p-8">
                     {isLoading && (
