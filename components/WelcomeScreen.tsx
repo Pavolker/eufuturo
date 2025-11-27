@@ -14,7 +14,7 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart }) => {
                 <br/><br/>
                 Com base na ciência do "Future Self Continuity", o sistema cria uma simulação de conversa entre o "você de agora" e o "você de daqui a alguns anos".
                 <br/><br/>
-                Você escolhe a idade do seu "eu futuro" — 40, 50, 70 anos — e o aplicativo usa dados e projeções para estimar como essa versão de você avaliaria a decisão de hoje.
+                Você escolhe a idade do seu "eu futuro" — 40, 50, 100, 150 anos — e o aplicativo usa dados e projeções para estimar como essa versão de você avaliaria a decisão de hoje.
                 <br/><br/>
                 A proposta é simples: ajudar você a pensar nas consequências de longo prazo, de forma racional, empática e fundamentada em evidências sobre comportamento humano e tomada de decisão."
             </p>
